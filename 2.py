@@ -9,3 +9,5 @@ b = a.tobytes()
 c = np.frombuffer(b, dtype=a.dtype)
 d = np.unpackbits(c, axias=0)
 print(c)
+
+# why no co?
