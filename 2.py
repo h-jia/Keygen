@@ -12,4 +12,5 @@ print(c)
 print(d)
 
 b = bytes(str(a), 'utf8')
-print(b.decode("utf-8"))
+c = b.decode("utf-8")
+print(c)
