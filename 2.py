@@ -11,4 +11,5 @@ d = np.unpackbits(c, axias=0)
 print(c)
 print(d)
 
-# d should be like 010010110
+b = bytes(str(a), 'utf8')
+print(b.decode("utf-8"))
